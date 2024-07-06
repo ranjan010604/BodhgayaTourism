@@ -1,0 +1,50 @@
+/* Reset default margins and paddings */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set base font size and family */
+body {
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.17em;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 1.2rem;
+    color: white;
+    text-transform: capitalize;
+}
+
+
+a {
+    color: black;
+    border: none;
+    outline: none;
+    stroke: none;
+    cursor: pointer;
+}
